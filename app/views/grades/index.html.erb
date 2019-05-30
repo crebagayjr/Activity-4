@@ -1,0 +1,26 @@
+<table>
+<tr>
+     <th>Name</th>
+     <th>Course</th>
+     <th>ID Number</th>
+     <th>Average Grade</th>
+    
+<tr>
+
+<% @grades.each do |grade| %>
+
+<tr>
+<td><%=   grade.name %></td>
+<td><%=   grade.course %></td>
+<td><%=   grade.idnumber %></td>
+
+
+<td>
+	
+	AVERAGE	
+	</a>	
+</td>
+
+<% end %>
+
+</table>
